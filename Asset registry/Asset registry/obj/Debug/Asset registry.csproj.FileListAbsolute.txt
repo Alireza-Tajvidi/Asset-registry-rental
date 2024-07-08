@@ -1,0 +1,10 @@
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\bin\Debug\Asset registry.exe.config
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\bin\Debug\Asset registry.exe
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\bin\Debug\Asset registry.pdb
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset registry.csproj.AssemblyReference.cache
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset_registry.Form1.resources
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset_registry.Properties.Resources.resources
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset registry.csproj.GenerateResource.cache
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset registry.csproj.CoreCompileInputs.cache
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset registry.exe
+C:\Users\parsa\Desktop\Morya\Asset registry\Asset registry\Asset registry\obj\Debug\Asset registry.pdb

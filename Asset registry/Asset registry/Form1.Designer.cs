@@ -51,6 +51,8 @@
             this.lbAssetowner = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbTenantregistry = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lbAssetregistry = new System.Windows.Forms.Label();
             this.panLicense = new System.Windows.Forms.Panel();
             this.panLeaseend = new System.Windows.Forms.Panel();
             this.panLatency = new System.Windows.Forms.Panel();
@@ -63,14 +65,12 @@
             this.lbLatency = new System.Windows.Forms.Label();
             this.lbCollection = new System.Windows.Forms.Label();
             this.lbNewcontract = new System.Windows.Forms.Label();
-            this.lbAssetregistry = new System.Windows.Forms.Label();
             this.panTopbar = new System.Windows.Forms.Panel();
             this.picProfile = new System.Windows.Forms.PictureBox();
             this.panOptions = new System.Windows.Forms.Panel();
             this.panOpt3 = new System.Windows.Forms.Panel();
             this.panOpt2 = new System.Windows.Forms.Panel();
             this.panOpt1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.txtDeedid = new System.Windows.Forms.TextBox();
             this.lbRoomcount = new System.Windows.Forms.Label();
             this.panRoomcount = new System.Windows.Forms.Panel();
@@ -78,10 +78,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.nmrOccupantnumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrRent)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panTopbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picProfile)).BeginInit();
             this.panOptions.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmrRoomcount)).BeginInit();
             this.SuspendLayout();
             // 
@@ -336,6 +336,26 @@
             this.lbTenantregistry.TabIndex = 0;
             this.lbTenantregistry.Text = "Kiracı kayıdı";
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.WindowText;
+            this.panel4.Controls.Add(this.lbAssetregistry);
+            this.panel4.Location = new System.Drawing.Point(7, 66);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(190, 29);
+            this.panel4.TabIndex = 4;
+            // 
+            // lbAssetregistry
+            // 
+            this.lbAssetregistry.AutoSize = true;
+            this.lbAssetregistry.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAssetregistry.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(132)))), ((int)(((byte)(47)))));
+            this.lbAssetregistry.Location = new System.Drawing.Point(9, 5);
+            this.lbAssetregistry.Name = "lbAssetregistry";
+            this.lbAssetregistry.Size = new System.Drawing.Size(103, 24);
+            this.lbAssetregistry.TabIndex = 0;
+            this.lbAssetregistry.Text = "Mülk kayıdı";
+            // 
             // panLicense
             // 
             this.panLicense.BackColor = System.Drawing.SystemColors.ScrollBar;
@@ -447,17 +467,6 @@
             this.lbNewcontract.TabIndex = 0;
             this.lbNewcontract.Text = "Yeni kontrat";
             // 
-            // lbAssetregistry
-            // 
-            this.lbAssetregistry.AutoSize = true;
-            this.lbAssetregistry.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAssetregistry.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(132)))), ((int)(((byte)(47)))));
-            this.lbAssetregistry.Location = new System.Drawing.Point(9, 5);
-            this.lbAssetregistry.Name = "lbAssetregistry";
-            this.lbAssetregistry.Size = new System.Drawing.Size(103, 24);
-            this.lbAssetregistry.TabIndex = 0;
-            this.lbAssetregistry.Text = "Mülk kayıdı";
-            // 
             // panTopbar
             // 
             this.panTopbar.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -515,15 +524,6 @@
             this.panOpt1.Size = new System.Drawing.Size(25, 5);
             this.panOpt1.TabIndex = 1;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.WindowText;
-            this.panel4.Controls.Add(this.lbAssetregistry);
-            this.panel4.Location = new System.Drawing.Point(7, 66);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(190, 29);
-            this.panel4.TabIndex = 4;
-            // 
             // txtDeedid
             // 
             this.txtDeedid.BackColor = System.Drawing.Color.Gainsboro;
@@ -557,11 +557,21 @@
             // 
             this.nmrRoomcount.BackColor = System.Drawing.Color.Gainsboro;
             this.nmrRoomcount.Location = new System.Drawing.Point(720, 293);
+            this.nmrRoomcount.Maximum = new decimal(new int[] {
+            7,
+            0,
+            0,
+            0});
+            this.nmrRoomcount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.nmrRoomcount.Name = "nmrRoomcount";
             this.nmrRoomcount.Size = new System.Drawing.Size(277, 20);
             this.nmrRoomcount.TabIndex = 44;
             this.nmrRoomcount.Value = new decimal(new int[] {
-            8,
+            7,
             0,
             0,
             0});
@@ -603,11 +613,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.nmrRent)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panTopbar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picProfile)).EndInit();
             this.panOptions.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmrRoomcount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
